@@ -13,10 +13,10 @@ const Hero = () => {
   const opacity = useTransform(scrollYProgress, [0, 0.7, 1], [1, 1, 0])
 
   return (
-    <div className='relative bg-background text-white'>
+    <div className=' bg-background text-white'>
       <div
         ref={targetRef}
-        className='absolute left-0 -top-[--header-height] w-full  h-[200vh]'
+        className='absolute left-0 -top-[--header-height] w-full h-[200vh]'
       >
         <motion.img
           style={{ opacity }}
@@ -26,7 +26,7 @@ const Hero = () => {
         />
       </div>
       <Container
-        className='relative z-10 h-[--hero-height] 
+        className='relative z-10 h-[--hero-height]
       pb-7'
       >
         <motion.div
