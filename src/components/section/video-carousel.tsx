@@ -7,7 +7,6 @@ import {
 } from 'motion/react'
 import { useWindowSize } from 'react-use'
 import { movies, randomMoviesSet1, randomMoviesSet2, Movie } from '../../movies'
-import { tr } from 'motion/react-client'
 import Button from '../button'
 
 const VideoCarousel = () => {
